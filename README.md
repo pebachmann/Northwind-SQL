@@ -182,7 +182,7 @@ O conjunto de dados Northwind inclui dados de amostra para o seguinte:
 
 O banco de dados `Northwind` inclui 14 tabelas e os relacionamentos entre as tabelas são mostrados no seguinte diagrama de relacionamento de entidades.
 
-![northwind](https://github.com/pebachmann/projeto_01_SQL/blob/main/pics/northwind-er-diagram.png?raw=true)
+![northwind](https://github.com/pebachmann/Northwind-SQL/blob/main/pics/northwind-er-diagram.png?raw=true)
 
 ## Configuração Inicial
 
