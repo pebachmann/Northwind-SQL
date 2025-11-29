@@ -4,7 +4,7 @@
 
 Este repositório tem como objetivo apresentar relatórios construídos em SQL. As análises disponibilizadas aqui podem ser aplicadas nas empresas, em áreas como marketing, vendas, financeiro e operações. Através destes relatórios, organizações poderão extrair insights valiosos de seus dados, ajudando na tomada de decisões estratégicas, promovendo uma cultura Data Driven.
 
-Além das análises foram adicionados também triggers para atualização de uma materialized view de vendas acumuladas mensais e auditoria de movimentações na tabela employees, criando assim um ambiente de ETL à medida que forem adicionados novos registros de vendas e mudanças de cargo dentro da empresa. Apresentando assim, análises e automatização de novos registros de vendas e movimentações na operação.
+Além das análises foram adicionados também triggers para atualização de uma materialized view de vendas acumuladas mensais e auditoria de movimentações na tabela employees, criando assim um ambiente de ETL à medida que forem adicionados novos registros de vendas e mudanças de cargo dentro da empresa. Integrando análises e automatização de novos registros de vendas e movimentações na operação.
 
 ## Relatórios criados
 
@@ -237,7 +237,7 @@ Além das análises foram adicionados também triggers para atualização de uma
     $$ language plpgsql;
 
         call atualize_employee_title(1, 'estagiario');
-        ```
+    ```
 
 ## Contexto
 
