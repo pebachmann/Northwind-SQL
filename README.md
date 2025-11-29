@@ -236,7 +236,8 @@ Além das análises foram adicionados também triggers para atualização de uma
     end;
     $$ language plpgsql;
 
-        call atualize_employee_title(1, 'estagiario');
+    call atualize_employee_title(1, 'estagiario');
+    
     ```
 
 ## Contexto
