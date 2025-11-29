@@ -1,3 +1,5 @@
+-- Materialized view das vendas acumuladas mensais
+
 create materialized view mv_sales_accumulated_monthly as
 select
 	extract (year from o.order_date) as year,

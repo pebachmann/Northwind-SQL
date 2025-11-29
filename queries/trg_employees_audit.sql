@@ -1,3 +1,5 @@
+-- Auditoria de movimentação na tabela employees
+
 create table employees_audit (
 	employee_id int,
 	name_old varchar(100),

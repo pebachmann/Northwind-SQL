@@ -1,4 +1,4 @@
---Faça uma análise de crescimento mensal e o cálculo de YTD
+--Análise de crescimento mensal e o cálculo de YTD
 create view v_monthly_revenue as 
 with monthly_revenue as (
 	select 
